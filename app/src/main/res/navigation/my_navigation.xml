@@ -5,7 +5,7 @@
     android:id="@+id/my_navigation"
     app:startDestination="@id/RecipesFragment">
 
-    <fragment
+     <fragment
         android:id="@+id/RecipesFragment"
         android:name="com.example.foody.RecipesFragment"
         android:label="fragment_recipes"
@@ -16,7 +16,7 @@
         android:label="fragment_favorite_recipes"
         tools:layout="@layout/fragment_favorite_recipes" />
     <fragment
-        android:id="@+id/foodJokeFragment"
+        android:id="@+id/FoodJokeFragment"
         android:name="com.example.foody.FoodJokeFragment"
         android:label="fragment_food_joke"
         tools:layout="@layout/fragment_food_joke" />
